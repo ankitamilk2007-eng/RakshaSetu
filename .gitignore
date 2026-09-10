@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+backend/node_modules/
+.pnp
+.pnp.js
+
+# Database data directory & logs
+backend/pgdata/
+*.log
+
+# Production build output
+dist/
+dist-ssr/
+*.local
+
+# Environment variables
+.env
+.env*.local
+
+# Editor directories
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
